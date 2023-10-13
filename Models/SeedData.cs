@@ -89,6 +89,72 @@ namespace AquaDoor.Models
                         Price = 14000
 
 
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "Basic",
+                        Meterial = "Wooden",
+                        DoorType = "Double",
+                        LockType = "Key",
+                        Size = 9,
+                        Price = 2000
+
+
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "Door Alpha",
+                        Meterial = "Steel",
+                        DoorType = "Double",
+                        LockType = "Key",
+                        Size = 15,
+                        Price = 4000
+
+
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "Door Mega",
+                        Meterial = "Wooden",
+                        DoorType = "Single",
+                        LockType = "Key",
+                        Size = 14,
+                        Price = 1500
+
+
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "AquaDoor Special",
+                        Meterial = "Wooden",
+                        DoorType = "Double",
+                        LockType = "Digital",
+                        Size = 10,
+                        Price = 10000
+
+
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "Door Simple",
+                        Meterial = "Metal",
+                        DoorType = "Single",
+                        LockType = "Key",
+                        Size = 7,
+                        Price = 1000
+
+
+                    },
+                    new DoorTypes
+                    {
+                        ProductName = "Door detailed",
+                        Meterial = "Wooden",
+                        DoorType = "Double",
+                        LockType = "Key",
+                        Size = 12,
+                        Price = 15000
+
+
                     }
                 );
                 context.SaveChanges();
